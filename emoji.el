@@ -1,4 +1,4 @@
-;;; emoji.el - show emoji on Emacs, complete emoji with anythig.
+;;; emoji.el --- show emoji on Emacs, complete emoji with anythig.
 
 ;; Copyright (c) 2009 by KAYAC Inc.
 
@@ -22,7 +22,7 @@
 
 ;; Prefix: emoji-
 
-;;; Installation
+;;; Installation:
 
 ;; If you can read japanese,
 ;; see tomoya's great entry for more infomation
@@ -36,6 +36,8 @@
 ;; (add-to-list 'load-path  "/path/to/emoji")
 ;; (require 'emoji)
 
+;;; Commentary:
+
 ;; Commands:
 ;; emoji completion
 ;; `emoji-complete-pictogram'
@@ -46,6 +48,8 @@
 ;; `emoji-show-softbank'
 
 ;; `emoji-replace-image-to-unicode'
+
+;;; Code:
 
 (require 'cl)
 (require 'anything)
